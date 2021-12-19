@@ -1,6 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
+    - CameraZoom
+    - TileMapScript
+    - World
     - move_player
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -19,7 +23,6 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.PixelPerfectCamera
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -50,7 +53,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/DreamLands/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -65,9 +68,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -76,23 +85,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 614}
+      Script: {instanceID: 658}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2666}
     - Class: 114
-      Script: {instanceID: 3548}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 3720}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 4682}
+      Script: {instanceID: 3608}
     - Class: 114
-      Script: {instanceID: 5028}
+      Script: {instanceID: 3726}
+    - Class: 114
+      Script: {instanceID: 3780}
+    - Class: 114
+      Script: {instanceID: 4742}
+    - Class: 114
+      Script: {instanceID: 5088}
+    - Class: 114
+      Script: {instanceID: 23044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -102,6 +119,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 19719996
       Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
@@ -244,6 +263,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 4637ea3d0f42002757e940c8ce8892c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TileMapScript
   - hash:
       serializedVersion: 2
       Hash: 15882a52798c275361cd0a3ada984ec5
@@ -420,6 +445,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 27a12f7065748b1431f5ffa0f0125a29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraZoom
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -486,6 +517,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CodeMonkey_CameraFollowPlayer_Final
+    className: CameraManualMovement
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -538,6 +575,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
     className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: CodeMonkey_CameraFollowPlayer_Final
+    className: CameraFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: World
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -906,7 +955,7 @@ ScriptsOnlyBuild:
     className: CinemachineRecomposer
   - hash:
       serializedVersion: 2
-      Hash: 35e676452be7593b4c6d1e43916a1785
+      Hash: 5149905183708c2ec5ad4b00f7dd1f78
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: move_player
@@ -964,7 +1013,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: ba4e407ce29ce6a396a43bbeb24d00da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   platform: 5
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/DreamLands/Scenes/SampleScene.unity
   playerPath: D:/Projet/build/DreamLands.exe

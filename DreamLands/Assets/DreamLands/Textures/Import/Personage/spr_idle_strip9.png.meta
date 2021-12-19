@@ -121,12 +121,12 @@ TextureImporter:
       name: spr_idle_strip9_0
       rect:
         serializedVersion: 2
-        x: 32
+        x: 42
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 13
+        height: 18
+      alignment: 9
+      pivot: {x: 0.23076923, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +142,12 @@ TextureImporter:
       name: spr_idle_strip9_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 138
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 13
+        height: 18
+      alignment: 9
+      pivot: {x: 0.23076923, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: spr_idle_strip9_2
       rect:
         serializedVersion: 2
-        x: 224
+        x: 234
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 13
+        height: 18
+      alignment: 9
+      pivot: {x: 0.23076923, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: spr_idle_strip9_3
       rect:
         serializedVersion: 2
-        x: 320
+        x: 329
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: spr_idle_strip9_4
       rect:
         serializedVersion: 2
-        x: 416
+        x: 425
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 14
+        height: 16
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: spr_idle_strip9_5
       rect:
         serializedVersion: 2
-        x: 512
+        x: 522
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 13
+        height: 17
+      alignment: 9
+      pivot: {x: 0.23076923, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: spr_idle_strip9_6
       rect:
         serializedVersion: 2
-        x: 608
+        x: 618
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 13
+        height: 17
+      alignment: 9
+      pivot: {x: 0.23076923, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: spr_idle_strip9_7
       rect:
         serializedVersion: 2
-        x: 704
+        x: 714
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 13
+        height: 17
+      alignment: 9
+      pivot: {x: 0.23076923, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: spr_idle_strip9_8
       rect:
         serializedVersion: 2
-        x: 800
+        x: 810
         y: 25
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 13
+        height: 18
+      alignment: 9
+      pivot: {x: 0.23076923, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

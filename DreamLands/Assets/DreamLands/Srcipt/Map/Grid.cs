@@ -1,14 +1,3 @@
-/* 
-    ------------------- Code Monkey -------------------
-
-    Thank you for downloading this package
-    I hope you find it useful in your projects
-    If you have any questions let me know
-    Cheers!
-
-               unitycodemonkey.com
-    --------------------------------------------------
- */
 
 using System;
 using System.Collections;
@@ -46,10 +35,14 @@ public class Grid
         {
             TextMesh[,] debugTextArray = new TextMesh[width, height];
 
-            for (int x = 0; x < gridArray.GetLength(0); x++)
+            for (int x = -10; x < gridArray.GetLength(0); x++)
             {
-                for (int y = 0; y < gridArray.GetLength(1); y++)
+                for (int y = -10; y < gridArray.GetLength(1); y++)
                 {
+                    if (UnityEngine.Random.Range(1, 101) <= 10)
+                    {
+                        Spawn.Tree(Utils.CastCordinate(GetWorldPosition(x, y)));
+                    }
                     Debug.DrawLine(GetWorldPosition(x, y), GetWorldPosition(x, y + 1), Color.white, 100f,false);
                     Debug.DrawLine(GetWorldPosition(x, y), GetWorldPosition(x + 1, y), Color.white, 100f, false);
                 }

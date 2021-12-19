@@ -1,0 +1,221 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'fr' Physical Memory: 16336 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Projet/Unity/DreamLands
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+65033
+Successfully changed project path to: D:/Projet/Unity/DreamLands
+D:/Projet/Unity/DreamLands
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projet/Unity/DreamLands/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002455 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.257 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1987 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2438.
+Total: 2.563000 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.203300 ms MarkObjects: 1.960200 ms  DeleteObjects: 0.166600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/DreamLands/Textures/Import/test/TileSet.png
+  artifactKey: Guid(266dc48a467895949a66fcbc3ef8612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet.png using Guid(266dc48a467895949a66fcbc3ef8612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065dd50f8814af5dc6590a7fbd9164e0') in 0.676713 seconds
+  Import took 0.681809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.356051 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet.png
+  artifactKey: Guid(266dc48a467895949a66fcbc3ef8612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet.png using Guid(266dc48a467895949a66fcbc3ef8612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc8ead1ff3d11df4e4ab621eeef199') in 0.567231 seconds
+  Import took 0.571639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.626111 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_0.asset
+  artifactKey: Guid(972725f16e69e934397bbab479c4c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_0.asset using Guid(972725f16e69e934397bbab479c4c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238e0fe2cbe3a1844981819a2636d54f') in 0.028319 seconds
+  Import took 0.032275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_6.asset
+  artifactKey: Guid(c8f4cb5778cebef46ab0696b6732d785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_6.asset using Guid(c8f4cb5778cebef46ab0696b6732d785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a41964a4c91332e74ef8f8dffdf7636') in 0.016674 seconds
+  Import took 0.019741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_10.asset
+  artifactKey: Guid(8ba9c6e866465f04e91f3b1cb1bf3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_10.asset using Guid(8ba9c6e866465f04e91f3b1cb1bf3dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8701206e0a1aa4e595747f865873478') in 0.017030 seconds
+  Import took 0.020601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_1.asset
+  artifactKey: Guid(a27d8fc075cc80a4d818312c4a2864b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_1.asset using Guid(a27d8fc075cc80a4d818312c4a2864b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93531564f68c6f8cca263ad8500092c3') in 0.019645 seconds
+  Import took 0.025126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_14.asset
+  artifactKey: Guid(d375e0d202c757b4a9f20bcf067a5718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_14.asset using Guid(d375e0d202c757b4a9f20bcf067a5718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1363ddab5b9fba1584a07b3b4b825b') in 0.022736 seconds
+  Import took 0.026789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_13.asset
+  artifactKey: Guid(45e913e31c843464486d698e0b2f1cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_13.asset using Guid(45e913e31c843464486d698e0b2f1cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e281869e9c842994e7040816aa856bf9') in 0.016024 seconds
+  Import took 0.019628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_3.asset
+  artifactKey: Guid(b12b9a42e9f98904e91facf00ade8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_3.asset using Guid(b12b9a42e9f98904e91facf00ade8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605638d7ee6c7472d65009888b474d73') in 0.015675 seconds
+  Import took 0.019505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_4.asset
+  artifactKey: Guid(4c043b0cffa58a04c86b816b1c256e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_4.asset using Guid(4c043b0cffa58a04c86b816b1c256e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74688c7c27587731adcc24adc483d97a') in 0.018122 seconds
+  Import took 0.022806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_8.asset
+  artifactKey: Guid(92bc5fabdf0dad54f8999a09a84f3844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_8.asset using Guid(92bc5fabdf0dad54f8999a09a84f3844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed854d830bbf710a8448789dbd86831e') in 0.016832 seconds
+  Import took 0.020707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_15.asset
+  artifactKey: Guid(5fd5c58f061b02c4ab0f9403915e3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_15.asset using Guid(5fd5c58f061b02c4ab0f9403915e3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3761c441569c0e9957273c605c64bed') in 0.014115 seconds
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_5.asset
+  artifactKey: Guid(8817cea360c8aac458a1a1be41abec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_5.asset using Guid(8817cea360c8aac458a1a1be41abec62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4b585e5b816a8410c8c3280ce9fa9') in 0.014791 seconds
+  Import took 0.018943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_7.asset
+  artifactKey: Guid(437af4e789fbe294c84c57a6e053bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_7.asset using Guid(437af4e789fbe294c84c57a6e053bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851335482011ec3e02f232ed9926c20f') in 0.017898 seconds
+  Import took 0.021431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_2.asset
+  artifactKey: Guid(0afa0da00a035f1449f2f5430e276ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_2.asset using Guid(0afa0da00a035f1449f2f5430e276ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c786d512673f1a44bbcff660abc5a69') in 0.019558 seconds
+  Import took 0.023692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_9.asset
+  artifactKey: Guid(62d8be44f97794b438b6f38b0f272613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_9.asset using Guid(62d8be44f97794b438b6f38b0f272613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738742c0a30e92898403ccf9bbeb3cf6') in 0.016891 seconds
+  Import took 0.021823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_12.asset
+  artifactKey: Guid(37a6e37a043af6a4d97eed8c14d6cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_12.asset using Guid(37a6e37a043af6a4d97eed8c14d6cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8101bd3834b05ba4c047e81258642c9') in 0.016410 seconds
+  Import took 0.020564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet_11.asset
+  artifactKey: Guid(b0ff8b6ccbbecd44b898f7a86716fb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet_11.asset using Guid(b0ff8b6ccbbecd44b898f7a86716fb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8263f2725e991f228c175cd8b1382f7f') in 0.014525 seconds
+  Import took 0.019419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.605706 seconds.
+  path: Assets/DreamLands/Textures/Import/test/TileSet.png
+  artifactKey: Guid(266dc48a467895949a66fcbc3ef8612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamLands/Textures/Import/test/TileSet.png using Guid(266dc48a467895949a66fcbc3ef8612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871f451e34976fdd29db740bf9823211') in 0.519860 seconds
+  Import took 0.525660 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

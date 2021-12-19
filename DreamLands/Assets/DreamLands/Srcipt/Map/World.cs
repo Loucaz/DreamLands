@@ -9,7 +9,7 @@ public class World : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        grid = new Grid(10, 10, 1f, new Vector3(0, 0));
+        grid = new Grid(20, 20, 1f, new Vector3(0, 0));
         Debug.Log("tamer");
     }
 
